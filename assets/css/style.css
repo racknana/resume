@@ -244,7 +244,7 @@ p{
     transition: all 0.5s;
 }
 .timeline a.hsinru:hover{
-    background:url(/assets/images/hsinru.png) no-repeat center center;
+    background:url(../assets/images/hsinru.png) no-repeat center center;
     background-size: contain;
     background-color: white;
     
