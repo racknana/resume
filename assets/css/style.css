@@ -244,31 +244,31 @@ p{
     transition: all 0.5s;
 }
 .timeline a.hsinru:hover{
-    background:url(../assets/images/hsinru.png) no-repeat center center;
+    background:url(../images/hsinru.png) no-repeat center center;
     background-size: contain;
     background-color: white;
     
 }
 .timeline a.chi:hover{
-  background:url(/assets/images/chi.png) no-repeat center center;
+  background:url(../images/chi.png) no-repeat center center;
   background-size: contain;
   background-color: white;
   
 }
 .timeline a.ching:hover{
-  background:url(/assets/images/ching.png) no-repeat center center;
+  background:url(../images/ching.png) no-repeat center center;
   background-size: contain;
   background-color: white;
   
 }
 .timeline a.cycu:hover{
-  background:url(/assets/images/cycu.png) no-repeat center center;
+  background:url(../images/cycu.png) no-repeat center center;
   background-size: 50%;
   background-color: white;
   
 }
 .timeline a.hsinru1:hover{
-  background:url(/assets/images/hsinru.png) no-repeat top center;
+  background:url(../images/hsinru.png) no-repeat top center;
   background-size: 70%;
   background-color: white;
 }
