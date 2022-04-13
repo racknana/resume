@@ -1,0 +1,374 @@
+*{  
+    font-family: 微軟正黑體 "Noto Sans TC", sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+/* RESUME */
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+h1 a{
+    color: black;
+    text-decoration: none;
+}
+ul.list{
+    text-align: center;
+}
+hr{
+    width: 1150px;
+    color: silver;
+}
+li{
+    font-weight: bold;
+    font-size: 17px;
+    display: inline;
+}
+.list a{
+    color: black;
+    text-decoration: none;
+}
+.listplace:hover{
+    color: rgb(248, 184, 65);
+}
+.topbg{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(244, 243, 243);
+    margin: 0;
+    overflow: auto;
+}
+.picture{
+    width: 40%;
+}
+.me{
+    margin-left: 30%;
+    margin-top: 40px; 
+    float: left;
+    border-radius: 50%;
+    border: whitesmoke 5px solid;
+    height: 350px;
+    outline: rgb(194, 192, 192) solid 6px;
+}
+img.me:hover{
+    border: whitesmoke 5px solid;
+    height: 350px;
+    outline: lightgreen solid 6px;
+}
+.resume{
+    margin-left: 50%;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.logo{
+    width: 100px;
+    margin-top: 3%;
+    transition: 0.5s;
+    /* position: relative;
+    top: 70px;
+    left: 290px; */
+}
+.logo:hover{
+  transform: scale(1.2);
+}
+#fb{
+    margin-left: 3%;
+    /* position: relative;
+    left: 1px; */
+}
+#mail{
+    width: 110px;
+    height: 90px;
+    margin-left: 3%;
+    /* left: 370px; */
+}
+#github{
+  width: 150px;
+  margin-left: 1%;
+  /* left: 385px; */
+}
+.h2{
+    margin-left: 7%;
+    clear: left;
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+.bar{
+    margin: 10px 100px 10px 100px;
+    width: 50%;
+    float: left;
+}
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+}
+.thirdpart{
+    /* margin: 10px 100px 10px 100px;
+    width: 50%;
+   
+    font-size: 20px; */
+    font-weight: bolder;
+}
+.html {width: 70%; background-color: #04AA6D;} /* Green */
+.css {width: 60%; background-color: #2196F3;} /* Blue */
+.java {width: 55%; background-color: #f44336;} /* Red */
+.c {width: 60%; background-color: #808080;} /* Dark Grey */
+.python {width: 65%; background-color: #cde62e;} /* Dark Yellow */
+.abimg{
+    margin-top: 30px;
+    height: 450px;
+}
+.men{
+  width: 100%;
+ }
+.secondimg{
+  margin-left: 7%;
+    clear: left;
+    float: left;
+  
+}
+.ex1{
+  clear: left;
+  height: 300px;
+}
+.ex1 img{
+  margin-top: 2%;
+  margin-left: 7%;
+  margin-bottom: 20px;
+  float: left;
+  height: 350px;
+}
+.secondword{
+  margin-left: 35%;
+  margin-right: 10%;
+}
+.seh3{
+  margin-left: 35%;
+}
+.secondimg{
+  width: 20%;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+#space{
+  padding-top: 50px;
+}
+.pic1{
+  
+  left: 30px;
+  top: 20px;
+  width: 300px;
+  transition: 0.5s;
+}
+.pic1:hover{
+  transform: scale(1.2);
+}
+#btc{
+  margin-top: 2%;
+  margin-left: 7%;
+  margin-bottom: 20px;
+  float: left;
+  
+}
+#lol{
+  margin-top: 2%;
+  margin-left: 7%;
+  margin-bottom: 20px;
+  float: left;
+  height: 200px;
+}
+
+
+
+
+  
+ 
+
+
+
+
+
+
+
+
+  
+
+.timedot a{
+    text-decoration: none;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.wrap h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 30px 0;
+}
+h2{
+    color: #192f2c;
+}
+p{
+    padding-top: 10px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #333;
+}
+.timeline{
+    padding-top: 5%;
+}
+.timeline a{
+    display: block; 
+    background-color: rgb(244, 243, 243);
+    border: 2px solid #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px #666;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.timeline a.hsinru:hover{
+    background:url(/assets/images/hsinru.png) no-repeat center center;
+    background-size: contain;
+    background-color: white;
+    
+}
+.timeline a.chi:hover{
+  background:url(/assets/images/chi.png) no-repeat center center;
+  background-size: contain;
+  background-color: white;
+  
+}
+.timeline a.ching:hover{
+  background:url(/assets/images/ching.png) no-repeat center center;
+  background-size: contain;
+  background-color: white;
+  
+}
+.timeline a.cycu:hover{
+  background:url(/assets/images/cycu.png) no-repeat center center;
+  background-size: 50%;
+  background-color: white;
+  
+}
+.timeline a.hsinru1:hover{
+  background:url(/assets/images/hsinru.png) no-repeat top center;
+  background-size: 70%;
+  background-color: white;
+}
+
+.timeline h2::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background-color: #000000;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.timeline li{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    width: 50%;
+    position: relative;
+}
+.timeline li::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(148, 148, 148);
+}
+.timeline li:nth-child(odd){
+    float: left;
+    padding-right: 100px;
+}
+.timeline li:nth-child(odd) h2::after{
+    right: 0; 
+}
+.timeline li:nth-child(odd)::after{
+    content: ""; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #000000;
+}
+.timeline li:nth-child(odd)::before{
+    right: -10px; 
+}
+.timeline li:nth-child(even){
+    float: right;
+    padding-left: 100px;
+    transform: translateY(50%);
+} 
+.timeline li:nth-child(even) h2::after{
+    left: 0; 
+}
+.timeline li:nth-child(even):last-child{
+    height: 50%; 
+}
+.timeline li:nth-child(even)::before{
+    left: -10px; 
+}
+#schoolplace{
+  padding-top: 15%;
+}
+.zoom{
+  padding-top: 1%;
+  padding-left: 10%;
+  transition: 0.5s
+}
+.zoom:hover{
+  transform: scale(1.15);
+}
+.word3{
+  margin-left: 7%;
+    clear: left;
+}
+main::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.school{
+  columns: 4;
+  column-width: 22% 22% 25% 23%;
+}
+footer {
+  background-color: rgb(244, 243, 243);
+  color: #444444;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
